@@ -1,8 +1,16 @@
-.frame {
-  border: 1px solid black;
+body {
+  background-color: black;
 }
 
-button {
+.btn {
   height: 60px;
   width: 60px;
+  margin-bottom: 3px;
+}
+
+#display {
+  height: 60px;
+  width: 252px;
+  margin: 30px auto 3px;
+  background-color: white;
 }
