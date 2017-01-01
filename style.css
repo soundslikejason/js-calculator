@@ -6,11 +6,19 @@ body {
   height: 60px;
   width: 60px;
   margin-bottom: 3px;
+  font-size: 20px;
 }
 
 #display {
   height: 60px;
   width: 252px;
-  margin: 30px auto 3px;
-  background-color: white;
+  margin: 50px auto 3px;
+  background-color: powderblue;
+  font-size: 24px;
+  text-align: right;
+  padding: 13px;
+}
+
+*:focus {
+    outline: 0 !important;
 }
